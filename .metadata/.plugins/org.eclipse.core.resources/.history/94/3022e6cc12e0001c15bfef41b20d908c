@@ -1,0 +1,18 @@
+package com.advance.ass;
+
+public class RectPerimeter {
+
+	private double length;
+	private double breadth;
+	 private double width;
+	
+	
+	
+	public void printArea() {
+		System.out.println("Length- " + length + " Breadth- " +breadth);
+
+		double area=(length*breadth);
+		System.out.println("Area of rectangle "+area);
+			}
+
+}

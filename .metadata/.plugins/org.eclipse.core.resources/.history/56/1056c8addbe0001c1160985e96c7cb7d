@@ -1,0 +1,6 @@
+package com.advance.medicine;
+
+public class Tablet extends Medicine{
+	
+
+}

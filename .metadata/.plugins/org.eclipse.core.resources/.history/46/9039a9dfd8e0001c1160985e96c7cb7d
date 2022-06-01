@@ -1,0 +1,7 @@
+package com.advance.medicine;
+
+public interface Medicine {
+	 void displayLabel(){
+		System.out.println("Company : Globex Pharma");
+		System.out.println("Address : Bangalore");}
+}

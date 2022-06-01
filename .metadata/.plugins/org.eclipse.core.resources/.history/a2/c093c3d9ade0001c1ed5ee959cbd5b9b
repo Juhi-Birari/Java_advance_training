@@ -1,0 +1,11 @@
+package com.advance.ass;
+
+public class Testperi {
+	public static void main(String[] args) {
+		RectPerimeter r1=new RectPerimeter(12.2,3.5);
+		RectPerimeter r2=new RectPerimeter(4.5,7.5);
+		
+		r1.perimeter();
+		r1.printArea();
+	}
+}

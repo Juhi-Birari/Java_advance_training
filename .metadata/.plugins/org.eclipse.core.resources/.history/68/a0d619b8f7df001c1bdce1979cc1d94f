@@ -1,0 +1,13 @@
+package com.advance.ass;
+
+public class TestRectangle {
+	public static void main(String[] args) {
+	Rectangle obj1=new Rectangle(2,4);
+	Rectangle obj2=new Rectangle(5,6);
+	Rectangle obj3=new Rectangle(6,4);
+	
+	obj1.printArea();
+	obj2.printArea();
+	obj3.printArea();
+	}
+}

@@ -1,0 +1,23 @@
+package com.advance.ass;
+
+public class Rectangle {
+	private int length;
+	private int breadth;
+	public Rectangle() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Rectangle(int length, int breadth) {
+		
+		this.length = length;
+		this.breadth = breadth;
+	}
+	
+	public void printArea() {
+		int area=length*breadth;
+		System.out.println("Area of rectangle "+area);
+		System.out.println("Length-" + length + "Breadth-" +breadth);
+	}
+	
+
+}

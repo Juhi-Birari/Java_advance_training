@@ -1,0 +1,10 @@
+
+public class Fibno {
+	public static void main(String[] args) {
+		int n;
+		int firstterm= Integer.parseInt(args[0]);;
+		int secondterm= Integer.parseInt(args[1]);;
+		System.out.println("first no= "+firstterm+"second no= "+secondterm);
+		
+	}
+}
